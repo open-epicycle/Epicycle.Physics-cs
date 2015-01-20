@@ -1,6 +1,6 @@
 title: Epicycle.Physics (.NET)
 url: https://github.com/open-epicycle/Epicycle.Geodesy-cs
-summary: "Epicycle .NET physics library. Includes: TODO"
+summary: "Epicycle .NET physics library."
 
 organization: Epicycle
 tags: epicycle lib library physics sensor sensors gps simulation
@@ -20,7 +20,7 @@ nuget_dependencies:
  - Epicycle.Geodesy-cs.0.1.0.0
 
 description: |
-   Epicycle .NET geodesy library. Includes: TODO
+   Epicycle .NET physics library.
    
    * Details & release notes: https://github.com/open-epicycle/Epicycle.Physics-cs/blob/ver-$version$/README.md
    * Sources: https://github.com/open-epicycle/Epicycle.Physics-cs/tree/ver-$version$
