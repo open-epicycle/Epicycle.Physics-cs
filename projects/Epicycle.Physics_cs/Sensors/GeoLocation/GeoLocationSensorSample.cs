@@ -18,19 +18,19 @@
 
 using Epicycle.Geodesy;
 
-namespace Epicycle.Physics.Sensors.Location
+namespace Epicycle.Physics.Sensors.GeoLocation
 {
-    public sealed class LocationSensorSample
+    public sealed class GeoLocationSensorSample
     {
-        private readonly LocationProvider _provider;
+        private readonly GeoLocationProvider _provider;
         private readonly double _time;
         private readonly GeoPoint3 _location;
         private readonly GeoDatum _geoDatum;
         private readonly double? _bearing;
         private readonly double? _speed;
         private readonly double? _accuracy;
-        
-        public LocationSensorSample(LocationProvider provider, double time, GeoPoint3 location, GeoDatum geoDatum, double? bearing, double? speed, double? accuracy)
+
+        public GeoLocationSensorSample(GeoLocationProvider provider, double time, GeoPoint3 location, GeoDatum geoDatum, double? bearing, double? speed, double? accuracy)
         {
             _provider = provider;
             _time = time;
@@ -41,7 +41,7 @@ namespace Epicycle.Physics.Sensors.Location
             _accuracy = accuracy;
         }
 
-        public LocationProvider Provider
+        public GeoLocationProvider Provider
         {
             get { return _provider; }
         }

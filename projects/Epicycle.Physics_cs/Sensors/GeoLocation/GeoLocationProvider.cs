@@ -16,9 +16,9 @@
 // For more information check https://github.com/open-epicycle/Epicycle.Physics-cs
 // ]]]]
 
-namespace Epicycle.Physics.Sensors.Location
+namespace Epicycle.Physics.Sensors.GeoLocation
 {
-    public enum LocationProvider
+    public enum GeoLocationProvider
     {
         Gps,
         Network,

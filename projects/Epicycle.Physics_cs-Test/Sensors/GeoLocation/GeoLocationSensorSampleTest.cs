@@ -19,15 +19,15 @@
 using Epicycle.Geodesy;
 using NUnit.Framework;
 
-namespace Epicycle.Physics.Sensors.Location
+namespace Epicycle.Physics.Sensors.GeoLocation
 {
     [TestFixture]
-    public class LocationSensorSampleTest
+    public class GeoLocationSensorSampleTest
     {
         [Test]
         public void ctor_initializes_all_fileds_correctly()
         {
-            var provider = LocationProvider.Network;
+            var provider = GeoLocationProvider.Network;
             var time = 123.0;
             var location = new GeoPoint3(12.0, 23.0, 34.0);
             var geoDatum = GeoDatum.Wgs84;
@@ -35,7 +35,7 @@ namespace Epicycle.Physics.Sensors.Location
             var speed = 234.0;
             var accuracy = 345.0;
 
-            var sample = new LocationSensorSample(provider, time, location, geoDatum, bearing, speed, accuracy);
+            var sample = new GeoLocationSensorSample(provider, time, location, geoDatum, bearing, speed, accuracy);
 
             Assert.That(sample.Provider, Is.EqualTo(provider));
             Assert.That(sample.Time, Is.EqualTo(time));
