@@ -2,19 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Epicycle.Physics-cs</id>
-    <version>0.1.0.0</version>
+    <version>0.1.1.0</version>
     <title>Epicycle.Physics (.NET)</title>
     <authors>Epicycle</authors>
     <owners>Epicycle</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>https://github.com/open-epicycle/Epicycle.Geodesy-cs</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Epicycle .NET geodesy library. Includes: TODO
+    <description>Epicycle .NET physics library.
 
 * Details &amp; release notes: https://github.com/open-epicycle/Epicycle.Physics-cs/blob/ver-$version$/README.md
 * Sources: https://github.com/open-epicycle/Epicycle.Physics-cs/tree/ver-$version$
 * Git repository: https://github.com/open-epicycle/Epicycle.Physics-cs</description>
-    <summary>Epicycle .NET physics library. Includes: TODO</summary>
+    <summary>Epicycle .NET physics library.</summary>
     <releaseNotes>https://github.com/open-epicycle/Epicycle.Physics-cs/blob/ver-$version$/README.md</releaseNotes>
     <copyright>Copyright 2015 Epicycle</copyright>
     <language />
