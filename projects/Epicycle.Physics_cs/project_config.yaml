@@ -1,0 +1,7 @@
+project_guid: B68C1AAE-5B55-406B-B6D1-3867AC9B5A49
+assemblyinfo_guid: b77fddf0-59e7-4453-a834-f46e457a23c1
+
+external_libs:
+ - Epicycle.Commons-cs
+ - Epicycle.Math-cs
+ - Epicycle.Geodesy-cs
