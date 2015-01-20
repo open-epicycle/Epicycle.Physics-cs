@@ -72,7 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sensors\GeoLocation\LocationSensorSampleTest.cs" />
+    <Compile Include="Sensors\GeoLocation\GeoLocationSensorSampleTest.cs" />
     <Compile Include="Sensors\SensorSampleEventArgsTest.cs" />
     <Compile Include="Sensors\SensorTest.cs" />
     <Compile Include="Sensors\Simulation\PassiveMultipleSensorPlayerSanityTest.cs" />
